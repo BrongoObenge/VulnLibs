@@ -128,20 +128,20 @@
             <version>6.2.2</version>
         </dependency>
     </dependencies>
-<build>
+<!--<build>-->
 
-	<plugins>    
-            <plugin>
-              <groupId>org.owasp</groupId>
-              <artifactId>dependency-check-maven</artifactId>
-              <executions>
-                  <execution>
-                      <goals>
-                          <goal>check</goal>
-                      </goals>
-                  </execution>
-              </executions>
-            </plugin>
-        </plugins>
-</build>
+	<!--<plugins>    -->
+            <!--<plugin>-->
+              <!--<groupId>org.owasp</groupId>-->
+              <!--<artifactId>dependency-check-maven</artifactId>-->
+              <!--<executions>-->
+                  <!--<execution>-->
+                      <!--<goals>-->
+                          <!--<goal>check</goal>-->
+                      <!--</goals>-->
+                  <!--</execution>-->
+              <!--</executions>-->
+            <!--</plugin>-->
+        <!--</plugins>-->
+<!--</build>-->
 </project>
